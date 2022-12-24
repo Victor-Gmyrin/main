@@ -6,8 +6,6 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.efficientnet import preprocess_input
 from tensorflow.keras.applications.efficientnet import decode_predictions
 import numpy as np
-import mathplotlib.pylot as plt
-%mathplotlib inline
 
 def load_model():
     model = EfficientNetB0(weights='imagenet')

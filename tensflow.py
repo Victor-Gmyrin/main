@@ -27,13 +27,13 @@ def print_predictions(preds):
     for cl in classes:
         st.write(cl[1], cl[2])
         
-model = load_model()
+model1 = load_model()
     
 st.title('Классификация изображений')
 img = load_image()
 result = st.button('Распознать изображение')
 if result:
     x = preprocess_image(img)
-    preds = model.predict(x)
+    preds = model1.predict(x)
     st.write('**Результаты распознавания:**')
     print_predictions(preds)

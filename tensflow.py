@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 def load_model():
-    model = EfficientNetB0(wights='imagenet')
+    model = EfficientNetB0(weights='imagenet')
     return model
 
 def preprocess_image(img):

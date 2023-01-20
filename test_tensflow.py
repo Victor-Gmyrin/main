@@ -1,6 +1,6 @@
+import json
 from fastapi.testclient import TestClient
 from tensflow import app
-import json
 
 client = TestClient(app)
 

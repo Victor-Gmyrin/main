@@ -4,6 +4,5 @@ uvicorn
 transformers
 torch
 tensorflow
-io
 PIL
 numpy

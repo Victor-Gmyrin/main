@@ -4,3 +4,7 @@ uvicorn
 transformers
 torch
 tensorflow
+io
+streamlit
+PIL
+numpy
